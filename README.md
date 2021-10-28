@@ -18,31 +18,32 @@ Na estória do usuário perfeita deve ter:
  
 Exemplos de como aplicar o BDD. 
 
-Cadastro com sucesso
+ Cadastro com sucesso. 
 
-Dado que acesso a página de cadastro 
-Quando submeto o meu cadastro com login , senha e confirmação de senha. 
-Então devo ser redirecionado para área logada . 
+   Dado que acesso a página de cadastro .
+   Quando submeto o meu cadastro com login , senha e confirmação de senha. 
+   Então devo ser redirecionado para área logada . 
 
-Email não informado 
-Dado que acesso a página de cadastro 
-Quando submeto o meu cadastro sem email
-Então devo ver "Oops!  Informe seu email".
+Email não informado.
 
-Senha não informada
-Dado que acesso a página de cadastro 
-Quando submeto o meu cadastro sem a senha
-Então devo ver "Oops! Informe sua senha".
+     Dado que acesso a página de cadastro .
+     Quando submeto o meu cadastro sem email.
+     Então devo ver "Oops!  Informe seu email".
 
-Senha divergente
-Dado que acesso a página de cadastro 
-Quando submeto o meu cadastro com as senhas divergentes 
-Então devo ver "Oops! Senhas não são iguais ". 
+ Senha não informada  
+    Dado que acesso a página de cadastro 
+    Quando submeto o meu cadastro sem a senha
+    Então devo ver "Oops! Informe sua senha".
 
-Nenhum campo preenchido
-Dado que acesso a página de cadastro 
-Quando submeto sem preencher os campos 
-Então devo ver "Oops! Informe seu email e senha".
+ Senha divergente  
+   Dado que acesso a página de cadastro 
+   Quando submeto o meu cadastro com as senhas divergentes 
+   Então devo ver "Oops! Senhas não são iguais ". 
+
+ Nenhum campo preenchido
+   Dado que acesso a página de cadastro 
+   Quando submeto sem preencher os campos 
+   Então devo ver "Oops! Informe seu email e senha".
 
 
 
